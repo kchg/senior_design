@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project app_id="f3b6b0271f84bbf9b17741fd9e9fb294" editor="RTMC Development" version="v4.3.0.20">
+  <auto_tabbing_enabled>false</auto_tabbing_enabled>
+  <auto_tabbing_interval>10</auto_tabbing_interval>
+  <rt_use_fixed_size>false</rt_use_fixed_size>
+  <rt_lock_aspect_ratio>true</rt_lock_aspect_ratio>
+  <dev_fixed_width>1280</dev_fixed_width>
+  <dev_fixed_height>1024</dev_fixed_height>
+  <dev_paper_width>1280</dev_paper_width>
+  <dev_paper_height>1024</dev_paper_height>
+  <dev_paper_units>2</dev_paper_units>
+  <Screens count="1">
+    <screen screen_name="Screen">
+      <show_image>false</show_image>
+      <background_image />
+      <background_color>16777215</background_color>
+      <position>0</position>
+      <snapshot_enabled>false</snapshot_enabled>
+      <Components count="1">
+        <component name="Chart: Text" title="Text" type="10601">
+          <top_pos>64</top_pos>
+          <left_pos>115</left_pos>
+          <bottom_pos>264</bottom_pos>
+          <right_pos>515</right_pos>
+          <calculation>&quot;Source:Station.Table.Field&quot;</calculation>
+          <snapshot_enabled>false</snapshot_enabled>
+          <lock_aspect_ratio>false</lock_aspect_ratio>
+          <comp_name_manually_editted>false</comp_name_manually_editted>
+          <background_color>12632256</background_color>
+          <back_val>1</back_val>
+          <back_units>2</back_units>
+          <display_range_val>1</display_range_val>
+          <display_range_units>2</display_range_units>
+          <font_color>0</font_color>
+          <font_size>12</font_size>
+          <image_name />
+          <is_transparent>false</is_transparent>
+          <auto_label>true</auto_label>
+          <major_ticks>6</major_ticks>
+          <major_tick_precision>0</major_tick_precision>
+          <title_charset>1</title_charset>
+          <title_name>Arial</title_name>
+          <title_italic>false</title_italic>
+          <title_underline>false</title_underline>
+          <title_bold>false</title_bold>
+          <title_strikethrough>false</title_strikethrough>
+          <title_font_size>12</title_font_size>
+          <title_font_color>0</title_font_color>
+          <show_legend>false</show_legend>
+          <legend_charset>1</legend_charset>
+          <legend_name>Arial</legend_name>
+          <legend_italic>false</legend_italic>
+          <legend_bold>false</legend_bold>
+          <legend_underline>false</legend_underline>
+          <legend_strikethrough>false</legend_strikethrough>
+          <legend_font_size>12</legend_font_size>
+          <legend_font_color>0</legend_font_color>
+          <show_vertical_grid>true</show_vertical_grid>
+          <x_axis_charset>1</x_axis_charset>
+          <x_axis_name>Arial</x_axis_name>
+          <x_axis_italic>false</x_axis_italic>
+          <x_axis_underline>false</x_axis_underline>
+          <x_axis_bold>false</x_axis_bold>
+          <x_axis_strikethrough>false</x_axis_strikethrough>
+          <x_axis_font_size>12</x_axis_font_size>
+          <x_axis_font_color>0</x_axis_font_color>
+          <time_format>%c</time_format>
+          <auto_scale_left>false</auto_scale_left>
+          <left_scale_max>100</left_scale_max>
+          <left_scale_min>0</left_scale_min>
+          <y_axis_charset>1</y_axis_charset>
+          <y_axis_name>Arial</y_axis_name>
+          <y_axis_italic>false</y_axis_italic>
+          <y_axis_underline>false</y_axis_underline>
+          <y_axis_bold>false</y_axis_bold>
+          <y_axis_strikethrough>false</y_axis_strikethrough>
+          <y_axis_font_size>12</y_axis_font_size>
+          <y_axis_font_color>0</y_axis_font_color>
+          <show_horizontal_grid>true</show_horizontal_grid>
+          <auto_scale_right>false</auto_scale_right>
+          <right_scale_max>100</right_scale_max>
+          <right_scale_min>0</right_scale_min>
+          <right_y_axis_charset>1</right_y_axis_charset>
+          <right_y_axis_name>Arial</right_y_axis_name>
+          <right_y_axis_italic>false</right_y_axis_italic>
+          <right_y_axis_underline>false</right_y_axis_underline>
+          <right_y_axis_bold>false</right_y_axis_bold>
+          <right_y_axis_strikethrough>false</right_y_axis_strikethrough>
+          <right_y_axis_font_size>12</right_y_axis_font_size>
+          <right_y_axis_font_color>0</right_y_axis_font_color>
+          <Traces count="1">
+            <traces label="batt_volt_Avg" version="2">
+              <trace_id>0</trace_id>
+              <series_type>0</series_type>
+              <visible>true</visible>
+              <axis>0</axis>
+              <calculation>&quot;Server:CR3000_2.Yarnell_15min.batt_volt_Avg&quot;</calculation>
+              <manually_edited>false</manually_edited>
+              <time_offset_with_units>0</time_offset_with_units>
+              <time_offset_units>2</time_offset_units>
+              <point_type>1</point_type>
+              <point_size>2</point_size>
+              <point_color>255</point_color>
+              <line_type>0</line_type>
+              <line_width>1</line_width>
+              <line_color>255</line_color>
+              <use_stairs>false</use_stairs>
+              <Marks>
+                <enabled>false</enabled>
+                <show_marks_on_click>true</show_marks_on_click>
+                <always_show_marks>false</always_show_marks>
+                <transparent>false</transparent>
+                <color>16777215</color>
+                <rounded>false</rounded>
+                <draw_every>1</draw_every>
+                <format>2</format>
+              </Marks>
+            </traces>
+          </Traces>
+        </component>
+      </Components>
+    </screen>
+  </Screens>
+  <CustomSchedule count="0" />
+  <Sources count="1">
+    <source name="Server" type="loggernet">
+      <settings address="localhost" encrypted="true" logon="" password="" port="6789" remember="true" />
+    </source>
+  </Sources>
+  <MediaManager />
+</Project>
