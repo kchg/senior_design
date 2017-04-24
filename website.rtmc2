@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Project app_id="f3b6b0271f84bbf9b17741fd9e9fb294" editor="RTMC Development" version="v4.3.0.20">
+<Project app_id="f3b6b0271f84bbf9b17741fd9e9fb294" editor="RTMC Development" version="v4.3.1.9">
   <auto_tabbing_enabled>false</auto_tabbing_enabled>
   <auto_tabbing_interval>10</auto_tabbing_interval>
   <rt_use_fixed_size>false</rt_use_fixed_size>
@@ -16,7 +16,7 @@
       <background_color>16777215</background_color>
       <position>0</position>
       <snapshot_enabled>false</snapshot_enabled>
-      <Components count="1">
+      <Components count="2">
         <component name="Chart: Text" title="Text" type="10601">
           <top_pos>64</top_pos>
           <left_pos>115</left_pos>
@@ -117,6 +117,37 @@
               </Marks>
             </traces>
           </Traces>
+        </component>
+        <component name="Status Bar: RH_L1_Tstat_Avg" type="10001" version="2">
+          <top_pos>229</top_pos>
+          <left_pos>711</left_pos>
+          <bottom_pos>393</bottom_pos>
+          <right_pos>854</right_pos>
+          <calculation>&quot;Source:Station.Table.Field&quot;</calculation>
+          <snapshot_enabled>false</snapshot_enabled>
+          <lock_aspect_ratio>false</lock_aspect_ratio>
+          <comp_name_manually_editted>false</comp_name_manually_editted>
+          <PositionMax>100</PositionMax>
+          <PositionMin>0</PositionMin>
+          <TickMajorCount>6</TickMajorCount>
+          <TickLabelPrecision>0</TickLabelPrecision>
+          <TickLabelFontColor>0</TickLabelFontColor>
+          <tick_label_font_size>12</tick_label_font_size>
+          <Orientation>0</Orientation>
+          <BackGroundColor>12632256</BackGroundColor>
+          <Transparent>true</Transparent>
+          <logarithmic>false</logarithmic>
+          <Pointers count="1">
+            <pointer>
+              <label>Pointer_1</label>
+              <calculation>&quot;Server:CR3000.Yarnell_1min.RH_L1_Tstat_Avg&quot;</calculation>
+              <size>8</size>
+              <margin>0</margin>
+              <style>0</style>
+              <color>65280</color>
+              <track>0</track>
+            </pointer>
+          </Pointers>
         </component>
       </Components>
     </screen>
