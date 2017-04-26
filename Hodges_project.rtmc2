@@ -40,7 +40,7 @@
       <background_color>16777215</background_color>
       <position>0</position>
       <snapshot_enabled>false</snapshot_enabled>
-      <Components count="12">
+      <Components count="15">
         <component name="Label: _Peak_Power_Demand_from_Centrifugal_Chillers" type="10104">
           <top_pos>67</top_pos>
           <left_pos>487</left_pos>
@@ -132,7 +132,7 @@
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
           <comp_name_manually_editted>false</comp_name_manually_editted>
-          <Caption>4/25/2017 9:47:02 PM</Caption>
+          <Caption>4/25/2017 9:54:00 PM</Caption>
           <vertical>false</vertical>
           <Transparent>false</Transparent>
           <border_style>0</border_style>
@@ -242,10 +242,10 @@
           <word_wrap>false</word_wrap>
         </component>
         <component comp_version="3" name="Time Series Chart: Outside_Temperature_(F)" Title="Outside Temperature (F)" type="10602">
-          <top_pos>730</top_pos>
-          <left_pos>51</left_pos>
-          <bottom_pos>984</bottom_pos>
-          <right_pos>1005</right_pos>
+          <top_pos>716</top_pos>
+          <left_pos>79</left_pos>
+          <bottom_pos>970</bottom_pos>
+          <right_pos>1224</right_pos>
           <calculation>&quot;Source:Station.Table.Field&quot;</calculation>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
@@ -777,8 +777,8 @@
         <component name="Thermometer: T_Outside" type="10003" version="2">
           <top_pos>374</top_pos>
           <left_pos>734</left_pos>
-          <bottom_pos>584</bottom_pos>
-          <right_pos>824</right_pos>
+          <bottom_pos>642</bottom_pos>
+          <right_pos>882</right_pos>
           <calculation>&quot;Source:Station.Table.Field&quot;</calculation>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
@@ -893,15 +893,15 @@
           <word_wrap>false</word_wrap>
         </component>
         <component name="Digital: T_Outside" type="10102" version="2">
-          <top_pos>569</top_pos>
-          <left_pos>758</left_pos>
-          <bottom_pos>621</bottom_pos>
-          <right_pos>844</right_pos>
+          <top_pos>633</top_pos>
+          <left_pos>794</left_pos>
+          <bottom_pos>685</bottom_pos>
+          <right_pos>880</right_pos>
           <calculation>&quot;Server:CR3000_2.Yarnell_HighRes.T_Outside&quot;</calculation>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
           <comp_name_manually_editted>false</comp_name_manually_editted>
-          <Caption>61.5 F</Caption>
+          <Caption>61.3 F</Caption>
           <vertical>false</vertical>
           <Transparent>false</Transparent>
           <border_style>0</border_style>
@@ -943,6 +943,158 @@
           <use_base_url>false</use_base_url>
           <base_url_name />
           <fixed_rotation>true</fixed_rotation>
+        </component>
+        <component name="Basic Status Bar: RH_Outside" type="10002" version="2">
+          <top_pos>374</top_pos>
+          <left_pos>1042</left_pos>
+          <bottom_pos>642</bottom_pos>
+          <right_pos>1190</right_pos>
+          <calculation>&quot;Source:Station.Table.Field&quot;</calculation>
+          <snapshot_enabled>false</snapshot_enabled>
+          <lock_aspect_ratio>false</lock_aspect_ratio>
+          <comp_name_manually_editted>false</comp_name_manually_editted>
+          <PositionMax>100</PositionMax>
+          <PositionMin>0</PositionMin>
+          <TickMajorCount>6</TickMajorCount>
+          <TickLabelPrecision>0</TickLabelPrecision>
+          <TickLabelFontColor>0</TickLabelFontColor>
+          <tick_label_font_size>12</tick_label_font_size>
+          <Orientation>0</Orientation>
+          <BackGroundColor>12632256</BackGroundColor>
+          <Transparent>true</Transparent>
+          <logarithmic>false</logarithmic>
+          <Pointers count="1">
+            <pointer>
+              <label>Pointer_1</label>
+              <calculation>&quot;Server:CR3000_2.Public.RH_Outside&quot;</calculation>
+              <size>8</size>
+              <margin>0</margin>
+              <style>0</style>
+              <color>65280</color>
+              <track>0</track>
+            </pointer>
+          </Pointers>
+          <BorderStyle>0</BorderStyle>
+          <bar_width>25</bar_width>
+          <ends_margin>5</ends_margin>
+          <ShowMaxPointer>false</ShowMaxPointer>
+          <ShowMinPointer>false</ShowMinPointer>
+          <show_scale_labels>true</show_scale_labels>
+          <AutoScaleEnabled>false</AutoScaleEnabled>
+          <ShowTicksAxis>true</ShowTicksAxis>
+          <ShowTicksMajor>true</ShowTicksMajor>
+          <major_tick_length>25</major_tick_length>
+          <ShowTicksMinor>true</ShowTicksMinor>
+          <TickMinorCount>3</TickMinorCount>
+          <TickMinorLength>5</TickMinorLength>
+          <TickLabelMargin>0</TickLabelMargin>
+          <OrientationTickMarks>1</OrientationTickMarks>
+          <TickMajorColor>0</TickMajorColor>
+          <TickMajorStyle>0</TickMajorStyle>
+          <TickMinorColor>0</TickMinorColor>
+          <TickMinorStyle>0</TickMinorStyle>
+          <TickMinorAlignment>0</TickMinorAlignment>
+          <TickMargin>0</TickMargin>
+          <font_lfCharSet>1</font_lfCharSet>
+          <font_lfClipPrecision>0</font_lfClipPrecision>
+          <font_lfEscapement>0</font_lfEscapement>
+          <font_lfFaceName>Arial</font_lfFaceName>
+          <font_lfHeight>-24</font_lfHeight>
+          <font_lfItalic>0</font_lfItalic>
+          <font_lfOrientation>0</font_lfOrientation>
+          <font_lfOutPrecision>0</font_lfOutPrecision>
+          <font_lfPitchAndFamily>0</font_lfPitchAndFamily>
+          <font_lfQuality>0</font_lfQuality>
+          <font_lfStrikeOut>0</font_lfStrikeOut>
+          <font_lfUnderline>0</font_lfUnderline>
+          <font_lfWeight>0</font_lfWeight>
+          <font_lfWidth>0</font_lfWidth>
+          <auto_expand_max>false</auto_expand_max>
+          <auto_expand_min>false</auto_expand_min>
+          <max_pointer>
+            <label>Pointer_1</label>
+            <calculation>&quot;Server:CR3000_2.Public.RH_Outside&quot;</calculation>
+            <size>8</size>
+            <margin>0</margin>
+            <style>1</style>
+            <color>255</color>
+            <track>2</track>
+          </max_pointer>
+          <min_pointer>
+            <label>Pointer_1</label>
+            <calculation>&quot;Server:CR3000_2.Public.RH_Outside&quot;</calculation>
+            <size>8</size>
+            <margin>0</margin>
+            <style>1</style>
+            <color>16711680</color>
+            <track>1</track>
+          </min_pointer>
+        </component>
+        <component name="Label" type="10104">
+          <top_pos>331</top_pos>
+          <left_pos>1010</left_pos>
+          <bottom_pos>381</bottom_pos>
+          <right_pos>1246</right_pos>
+          <snapshot_enabled>false</snapshot_enabled>
+          <lock_aspect_ratio>false</lock_aspect_ratio>
+          <comp_name_manually_editted>false</comp_name_manually_editted>
+          <Caption>Relative Humidity&#13;&#10;</Caption>
+          <vertical>false</vertical>
+          <Transparent>false</Transparent>
+          <border_style>0</border_style>
+          <orientation>1</orientation>
+          <font_lfCharSet>1</font_lfCharSet>
+          <font_lfClipPrecision>0</font_lfClipPrecision>
+          <font_lfEscapement>0</font_lfEscapement>
+          <font_lfFaceName>Arial</font_lfFaceName>
+          <font_lfHeight>-24</font_lfHeight>
+          <font_lfItalic>0</font_lfItalic>
+          <font_lfOrientation>0</font_lfOrientation>
+          <font_lfOutPrecision>0</font_lfOutPrecision>
+          <font_lfPitchAndFamily>0</font_lfPitchAndFamily>
+          <font_lfQuality>0</font_lfQuality>
+          <font_lfStrikeOut>0</font_lfStrikeOut>
+          <font_lfUnderline>0</font_lfUnderline>
+          <font_lfWeight>0</font_lfWeight>
+          <font_lfWidth>0</font_lfWidth>
+          <font_color>0</font_color>
+          <BackGroundColor>16777215</BackGroundColor>
+          <font_size>12</font_size>
+          <word_wrap>false</word_wrap>
+        </component>
+        <component name="Digital: RH_Outside" type="10102" version="2">
+          <top_pos>637</top_pos>
+          <left_pos>1096</left_pos>
+          <bottom_pos>687</bottom_pos>
+          <right_pos>1188</right_pos>
+          <calculation>&quot;Server:CR3000_2.Public.RH_Outside&quot;</calculation>
+          <snapshot_enabled>false</snapshot_enabled>
+          <lock_aspect_ratio>false</lock_aspect_ratio>
+          <comp_name_manually_editted>false</comp_name_manually_editted>
+          <Caption>83.1%</Caption>
+          <vertical>false</vertical>
+          <Transparent>false</Transparent>
+          <border_style>0</border_style>
+          <orientation>1</orientation>
+          <font_lfCharSet>1</font_lfCharSet>
+          <font_lfClipPrecision>0</font_lfClipPrecision>
+          <font_lfEscapement>0</font_lfEscapement>
+          <font_lfFaceName>Arial</font_lfFaceName>
+          <font_lfHeight>-24</font_lfHeight>
+          <font_lfItalic>0</font_lfItalic>
+          <font_lfOrientation>0</font_lfOrientation>
+          <font_lfOutPrecision>0</font_lfOutPrecision>
+          <font_lfPitchAndFamily>0</font_lfPitchAndFamily>
+          <font_lfQuality>0</font_lfQuality>
+          <font_lfStrikeOut>0</font_lfStrikeOut>
+          <font_lfUnderline>0</font_lfUnderline>
+          <font_lfWeight>0</font_lfWeight>
+          <font_lfWidth>0</font_lfWidth>
+          <font_color>0</font_color>
+          <BackGroundColor>16777215</BackGroundColor>
+          <font_size>12</font_size>
+          <precision>1</precision>
+          <units>%</units>
         </component>
       </Components>
     </screen>
@@ -1263,7 +1415,7 @@
           <orthogonal>true</orthogonal>
           <ortho_angle>45</ortho_angle>
           <left_axis>
-            <title_caption />
+            <title_caption>Watts</title_caption>
             <title_visible>true</title_visible>
             <title_font>
               <charset>1</charset>
@@ -1752,7 +1904,7 @@
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
           <comp_name_manually_editted>false</comp_name_manually_editted>
-          <Caption>4/25/2017 9:47:02 PM</Caption>
+          <Caption>4/25/2017 9:54:00 PM</Caption>
           <vertical>false</vertical>
           <Transparent>false</Transparent>
           <border_style>0</border_style>
@@ -2023,7 +2175,7 @@
           <orthogonal>true</orthogonal>
           <ortho_angle>45</ortho_angle>
           <left_axis>
-            <title_caption />
+            <title_caption>Watts</title_caption>
             <title_visible>true</title_visible>
             <title_font>
               <charset>1</charset>
@@ -2396,9 +2548,9 @@
         </component>
         <component comp_version="3" name="Time Series Chart: Power,_HVAC_indoor_unit_total3" Title="Power, HVAC indoor unit total" type="10602">
           <top_pos>672</top_pos>
-          <left_pos>61</left_pos>
+          <left_pos>62</left_pos>
           <bottom_pos>954</bottom_pos>
-          <right_pos>1217</right_pos>
+          <right_pos>1218</right_pos>
           <calculation>&quot;Source:Station.Table.Field&quot;</calculation>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
@@ -2556,7 +2708,7 @@
           <orthogonal>true</orthogonal>
           <ortho_angle>45</ortho_angle>
           <left_axis>
-            <title_caption />
+            <title_caption>Watts</title_caption>
             <title_visible>true</title_visible>
             <title_font>
               <charset>1</charset>
@@ -2929,9 +3081,9 @@
         </component>
         <component comp_version="3" name="Time Series Chart: Power,_HVAC_compressor" Title="Power, HVAC compressor" type="10602">
           <top_pos>1010</top_pos>
-          <left_pos>58</left_pos>
+          <left_pos>62</left_pos>
           <bottom_pos>1292</bottom_pos>
-          <right_pos>1214</right_pos>
+          <right_pos>1218</right_pos>
           <calculation>&quot;Source:Station.Table.Field&quot;</calculation>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
@@ -3089,7 +3241,7 @@
           <orthogonal>true</orthogonal>
           <ortho_angle>45</ortho_angle>
           <left_axis>
-            <title_caption />
+            <title_caption>Watts</title_caption>
             <title_visible>true</title_visible>
             <title_font>
               <charset>1</charset>
@@ -3462,9 +3614,9 @@
         </component>
         <component comp_version="3" name="Time Series Chart: Power,_HVAC_outdoor_unti_fan" Title="Power, HVAC outdoor unti fan" type="10602">
           <top_pos>1347</top_pos>
-          <left_pos>58</left_pos>
+          <left_pos>62</left_pos>
           <bottom_pos>1629</bottom_pos>
-          <right_pos>1214</right_pos>
+          <right_pos>1218</right_pos>
           <calculation>&quot;Source:Station.Table.Field&quot;</calculation>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
@@ -3622,7 +3774,7 @@
           <orthogonal>true</orthogonal>
           <ortho_angle>45</ortho_angle>
           <left_axis>
-            <title_caption />
+            <title_caption>Watts</title_caption>
             <title_visible>true</title_visible>
             <title_font>
               <charset>1</charset>
@@ -3995,9 +4147,9 @@
         </component>
         <component comp_version="3" name="Time Series Chart: Power,_HVAC_indoor_unit_fan" Title="Power, HVAC indoor unit fan" type="10602">
           <top_pos>1685</top_pos>
-          <left_pos>56</left_pos>
+          <left_pos>62</left_pos>
           <bottom_pos>1967</bottom_pos>
-          <right_pos>1212</right_pos>
+          <right_pos>1218</right_pos>
           <calculation>&quot;Source:Station.Table.Field&quot;</calculation>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
@@ -4155,7 +4307,7 @@
           <orthogonal>true</orthogonal>
           <ortho_angle>45</ortho_angle>
           <left_axis>
-            <title_caption />
+            <title_caption>Watts</title_caption>
             <title_visible>true</title_visible>
             <title_font>
               <charset>1</charset>
@@ -4528,9 +4680,9 @@
         </component>
         <component comp_version="3" name="Time Series Chart: Power,_HVAC_auxilliary_heat_(electric)" Title="Power, HVAC auxilliary heat (electric)" type="10602">
           <top_pos>2067</top_pos>
-          <left_pos>80</left_pos>
+          <left_pos>62</left_pos>
           <bottom_pos>2349</bottom_pos>
-          <right_pos>1236</right_pos>
+          <right_pos>1218</right_pos>
           <calculation>&quot;Source:Station.Table.Field&quot;</calculation>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
@@ -4688,7 +4840,7 @@
           <orthogonal>true</orthogonal>
           <ortho_angle>45</ortho_angle>
           <left_axis>
-            <title_caption />
+            <title_caption>Watts</title_caption>
             <title_visible>true</title_visible>
             <title_font>
               <charset>1</charset>
