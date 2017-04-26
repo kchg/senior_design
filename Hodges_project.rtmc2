@@ -41,29 +41,11 @@
       <position>0</position>
       <snapshot_enabled>false</snapshot_enabled>
       <Components count="12">
-        <component name="Image: hodges-large.jpg" type="10702">
-          <top_pos>13</top_pos>
-          <left_pos>988</left_pos>
-          <bottom_pos>215</bottom_pos>
-          <right_pos>1264</right_pos>
-          <snapshot_enabled>false</snapshot_enabled>
-          <lock_aspect_ratio>false</lock_aspect_ratio>
-          <comp_name_manually_editted>false</comp_name_manually_editted>
-          <image_name>C:\Users\Kevin\Google Drive\402 Files\data &amp; webpage\media\hodges-large.jpg</image_name>
-          <image_rotation>0</image_rotation>
-          <refresh_interval>0</refresh_interval>
-          <position>0</position>
-          <use_url>false</use_url>
-          <url_name />
-          <use_base_url>false</use_base_url>
-          <base_url_name />
-          <fixed_rotation>true</fixed_rotation>
-        </component>
         <component name="Label: _Peak_Power_Demand_from_Centrifugal_Chillers" type="10104">
-          <top_pos>71</top_pos>
-          <left_pos>317</left_pos>
-          <bottom_pos>132</bottom_pos>
-          <right_pos>973</right_pos>
+          <top_pos>67</top_pos>
+          <left_pos>487</left_pos>
+          <bottom_pos>128</bottom_pos>
+          <right_pos>1143</right_pos>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
           <comp_name_manually_editted>false</comp_name_manually_editted>
@@ -92,10 +74,10 @@
           <word_wrap>false</word_wrap>
         </component>
         <component name="Label: University_of_Tennessee_Hodges_Library" type="10104">
-          <top_pos>43</top_pos>
-          <left_pos>335</left_pos>
-          <bottom_pos>73</bottom_pos>
-          <right_pos>955</right_pos>
+          <top_pos>39</top_pos>
+          <left_pos>503</left_pos>
+          <bottom_pos>69</bottom_pos>
+          <right_pos>1123</right_pos>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
           <comp_name_manually_editted>false</comp_name_manually_editted>
@@ -124,10 +106,10 @@
           <word_wrap>false</word_wrap>
         </component>
         <component name="Image: header-logo.png" type="10702">
-          <top_pos>22</top_pos>
-          <left_pos>22</left_pos>
-          <bottom_pos>199</bottom_pos>
-          <right_pos>314</right_pos>
+          <top_pos>28</top_pos>
+          <left_pos>124</left_pos>
+          <bottom_pos>205</bottom_pos>
+          <right_pos>416</right_pos>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
           <comp_name_manually_editted>false</comp_name_manually_editted>
@@ -142,15 +124,15 @@
           <fixed_rotation>true</fixed_rotation>
         </component>
         <component name="Time: Last Data Collection" type="10106" version="2">
-          <top_pos>248</top_pos>
-          <left_pos>954</left_pos>
-          <bottom_pos>296</bottom_pos>
-          <right_pos>1271</right_pos>
+          <top_pos>270</top_pos>
+          <left_pos>814</left_pos>
+          <bottom_pos>318</bottom_pos>
+          <right_pos>1131</right_pos>
           <calculation>&quot;Server:__statistics__.CR3000_2_std.Last Data Collection&quot;</calculation>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
           <comp_name_manually_editted>false</comp_name_manually_editted>
-          <Caption>4/25/2017 9:19:00 PM</Caption>
+          <Caption>4/25/2017 9:47:02 PM</Caption>
           <vertical>false</vertical>
           <Transparent>false</Transparent>
           <border_style>0</border_style>
@@ -180,10 +162,10 @@
           <time_offset_units>2</time_offset_units>
         </component>
         <component name="Label: Last_Sync:" type="10104">
-          <top_pos>246</top_pos>
-          <left_pos>839</left_pos>
-          <bottom_pos>294</bottom_pos>
-          <right_pos>971</right_pos>
+          <top_pos>272</top_pos>
+          <left_pos>685</left_pos>
+          <bottom_pos>320</bottom_pos>
+          <right_pos>817</right_pos>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
           <comp_name_manually_editted>false</comp_name_manually_editted>
@@ -228,10 +210,10 @@
           <rotation>0</rotation>
         </component>
         <component name="Label: System_Status" type="10104">
-          <top_pos>143</top_pos>
-          <left_pos>504</left_pos>
-          <bottom_pos>191</bottom_pos>
-          <right_pos>746</right_pos>
+          <top_pos>139</top_pos>
+          <left_pos>674</left_pos>
+          <bottom_pos>187</bottom_pos>
+          <right_pos>916</right_pos>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
           <comp_name_manually_editted>false</comp_name_manually_editted>
@@ -260,10 +242,10 @@
           <word_wrap>false</word_wrap>
         </component>
         <component comp_version="3" name="Time Series Chart: Outside_Temperature_(F)" Title="Outside Temperature (F)" type="10602">
-          <top_pos>314</top_pos>
-          <left_pos>313</left_pos>
-          <bottom_pos>568</bottom_pos>
-          <right_pos>1267</right_pos>
+          <top_pos>730</top_pos>
+          <left_pos>51</left_pos>
+          <bottom_pos>984</bottom_pos>
+          <right_pos>1005</right_pos>
           <calculation>&quot;Source:Station.Table.Field&quot;</calculation>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
@@ -295,7 +277,7 @@
             <size>12</size>
             <color>0</color>
           </title_font>
-          <legend_visible>true</legend_visible>
+          <legend_visible>false</legend_visible>
           <legend_transparent>false</legend_transparent>
           <legend_back_color>16777215</legend_back_color>
           <legend_shadow_color>0</legend_shadow_color>
@@ -414,12 +396,12 @@
             </pen>
           </back_wall>
           <enable_3d>false</enable_3d>
-          <percent_3d>15</percent_3d>
+          <percent_3d>65</percent_3d>
           <zoom_3d>100</zoom_3d>
           <rotation>345</rotation>
           <elevation>345</elevation>
           <orthogonal>true</orthogonal>
-          <ortho_angle>45</ortho_angle>
+          <ortho_angle>63</ortho_angle>
           <left_axis>
             <title_caption />
             <title_visible>true</title_visible>
@@ -793,10 +775,10 @@
           </Traces>
         </component>
         <component name="Thermometer: T_Outside" type="10003" version="2">
-          <top_pos>332</top_pos>
-          <left_pos>80</left_pos>
-          <bottom_pos>542</bottom_pos>
-          <right_pos>170</right_pos>
+          <top_pos>374</top_pos>
+          <left_pos>734</left_pos>
+          <bottom_pos>584</bottom_pos>
+          <right_pos>824</right_pos>
           <calculation>&quot;Source:Station.Table.Field&quot;</calculation>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
@@ -879,10 +861,10 @@
           </min_pointer>
         </component>
         <component name="Label: Air_Temperature_(F)" type="10104">
-          <top_pos>289</top_pos>
-          <left_pos>30</left_pos>
-          <bottom_pos>335</bottom_pos>
-          <right_pos>277</right_pos>
+          <top_pos>339</top_pos>
+          <left_pos>676</left_pos>
+          <bottom_pos>385</bottom_pos>
+          <right_pos>923</right_pos>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
           <comp_name_manually_editted>false</comp_name_manually_editted>
@@ -911,15 +893,15 @@
           <word_wrap>false</word_wrap>
         </component>
         <component name="Digital: T_Outside" type="10102" version="2">
-          <top_pos>529</top_pos>
-          <left_pos>106</left_pos>
-          <bottom_pos>581</bottom_pos>
-          <right_pos>192</right_pos>
+          <top_pos>569</top_pos>
+          <left_pos>758</left_pos>
+          <bottom_pos>621</bottom_pos>
+          <right_pos>844</right_pos>
           <calculation>&quot;Server:CR3000_2.Yarnell_HighRes.T_Outside&quot;</calculation>
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
           <comp_name_manually_editted>false</comp_name_manually_editted>
-          <Caption>63.1 F</Caption>
+          <Caption>61.5 F</Caption>
           <vertical>false</vertical>
           <Transparent>false</Transparent>
           <border_style>0</border_style>
@@ -943,6 +925,24 @@
           <font_size>12</font_size>
           <precision>1</precision>
           <units> F</units>
+        </component>
+        <component name="Image: hodges-large.jpg2" type="10702">
+          <top_pos>275</top_pos>
+          <left_pos>74</left_pos>
+          <bottom_pos>628</bottom_pos>
+          <right_pos>582</right_pos>
+          <snapshot_enabled>false</snapshot_enabled>
+          <lock_aspect_ratio>false</lock_aspect_ratio>
+          <comp_name_manually_editted>false</comp_name_manually_editted>
+          <image_name>C:\Users\Kevin\Google Drive\402 Files\data &amp; webpage\media\hodges-large.jpg</image_name>
+          <image_rotation>0</image_rotation>
+          <refresh_interval>0</refresh_interval>
+          <position>0</position>
+          <use_url>false</use_url>
+          <url_name />
+          <use_base_url>false</use_base_url>
+          <base_url_name />
+          <fixed_rotation>true</fixed_rotation>
         </component>
       </Components>
     </screen>
@@ -1445,7 +1445,7 @@
             </title_font>
             <title_angle>0</title_angle>
             <auto_min>false</auto_min>
-            <min>42850.8</min>
+            <min>42850.9</min>
             <min_offset>0</min_offset>
             <auto_max>false</auto_max>
             <max>42850.9</max>
@@ -1636,7 +1636,7 @@
         </component>
       </Components>
     </screen>
-    <screen screen_name="Screen">
+    <screen screen_name="HVAC">
       <show_image>false</show_image>
       <background_image />
       <background_color>16777215</background_color>
@@ -1752,7 +1752,7 @@
           <snapshot_enabled>false</snapshot_enabled>
           <lock_aspect_ratio>false</lock_aspect_ratio>
           <comp_name_manually_editted>false</comp_name_manually_editted>
-          <Caption>4/25/2017 9:19:00 PM</Caption>
+          <Caption>4/25/2017 9:47:02 PM</Caption>
           <vertical>false</vertical>
           <Transparent>false</Transparent>
           <border_style>0</border_style>
@@ -2040,7 +2040,7 @@
             <min>10.8</min>
             <min_offset>0</min_offset>
             <auto_max>true</auto_max>
-            <max>1026</max>
+            <max>993.6</max>
             <max_offset>0</max_offset>
             <inverted>false</inverted>
             <logarithmic>false</logarithmic>
@@ -2205,7 +2205,7 @@
             </title_font>
             <title_angle>0</title_angle>
             <auto_min>false</auto_min>
-            <min>42850.8</min>
+            <min>42850.9</min>
             <min_offset>0</min_offset>
             <auto_max>false</auto_max>
             <max>42850.9</max>
@@ -2738,7 +2738,7 @@
             </title_font>
             <title_angle>0</title_angle>
             <auto_min>false</auto_min>
-            <min>42850.8</min>
+            <min>42850.9</min>
             <min_offset>0</min_offset>
             <auto_max>false</auto_max>
             <max>42850.9</max>
@@ -3106,7 +3106,7 @@
             <min>0</min>
             <min_offset>0</min_offset>
             <auto_max>true</auto_max>
-            <max>939.6</max>
+            <max>907.2</max>
             <max_offset>0</max_offset>
             <inverted>false</inverted>
             <logarithmic>false</logarithmic>
@@ -3271,7 +3271,7 @@
             </title_font>
             <title_angle>0</title_angle>
             <auto_min>false</auto_min>
-            <min>42850.8</min>
+            <min>42850.9</min>
             <min_offset>0</min_offset>
             <auto_max>false</auto_max>
             <max>42850.9</max>
@@ -3639,7 +3639,7 @@
             <min>0.6</min>
             <min_offset>0</min_offset>
             <auto_max>true</auto_max>
-            <max>66.6</max>
+            <max>64.2</max>
             <max_offset>0</max_offset>
             <inverted>false</inverted>
             <logarithmic>false</logarithmic>
@@ -3804,7 +3804,7 @@
             </title_font>
             <title_angle>0</title_angle>
             <auto_min>false</auto_min>
-            <min>42850.8</min>
+            <min>42850.9</min>
             <min_offset>0</min_offset>
             <auto_max>false</auto_max>
             <max>42850.9</max>
@@ -4172,7 +4172,7 @@
             <min>1.2</min>
             <min_offset>0</min_offset>
             <auto_max>true</auto_max>
-            <max>40.8</max>
+            <max>30.6</max>
             <max_offset>0</max_offset>
             <inverted>false</inverted>
             <logarithmic>false</logarithmic>
@@ -4337,7 +4337,7 @@
             </title_font>
             <title_angle>0</title_angle>
             <auto_min>false</auto_min>
-            <min>42850.8</min>
+            <min>42850.9</min>
             <min_offset>0</min_offset>
             <auto_max>false</auto_max>
             <max>42850.9</max>
@@ -4870,7 +4870,7 @@
             </title_font>
             <title_angle>0</title_angle>
             <auto_min>false</auto_min>
-            <min>42850.8</min>
+            <min>42850.9</min>
             <min_offset>0</min_offset>
             <auto_max>false</auto_max>
             <max>42850.9</max>
